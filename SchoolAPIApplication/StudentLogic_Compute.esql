@@ -3,7 +3,7 @@
 CREATE COMPUTE MODULE StudentLogic_Compute
 	CREATE FUNCTION Main() RETURNS BOOLEAN
 	BEGIN		
-
+-- added this comments for checking
 
 		DECLARE studentName CHARACTER InputRoot.JSON.Data.student.name;
 		DECLARE studentId INTEGER InputRoot.JSON.Data.student.id;
